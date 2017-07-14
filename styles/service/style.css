@@ -1,0 +1,148 @@
+body {
+
+}
+
+/*::-webkit-scrollbar {*/
+    /*width: 0;*/
+/*}*/
+
+/*页面共有样式*/
+.thisMarginBottom20 {
+    margin-bottom: 20%;
+}
+
+.thisW120H36 {
+    width: 120px;
+    height: 36px;
+}
+
+.thisW290 {
+    width: 290px;
+}
+
+.thisPaddingTop13 {
+    padding-top: 13px;
+}
+
+/* 页面私有样式*/
+.web {
+    position: relative;
+}
+
+.web .nav {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: #34aaf8;
+    z-index: 500;
+    display: block;
+}
+
+.web .nav .navWrap {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.web .nav .logo {
+    vertical-align: middle;
+    padding-left: 26px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.web .nav .navMenu {
+    float: right;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.web .nav .navMenu a {
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.web .nav .navMenu a:link {
+
+}
+
+.web .nav .navMenu a:visited {
+
+}
+
+.web .nav .navMenu a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.web .banner {
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 90px;
+    background-image: url(../../images/service/service_banner_bg.png);
+    min-width: 1200px;
+}
+
+.web .main {
+    width: 100%;
+    height: 2821px;
+    text-align: center;
+}
+
+.web .main .title {
+    margin-top: 100px;
+    margin-bottom: 33px;
+}
+
+.web .main .content {
+    width: 1200px;
+    margin: 125px auto 0 auto;
+}
+
+.web .main .titleSecond {
+    margin-top: 100px;
+    margin-bottom: 33px;
+}
+
+.web .main .projectWrap {
+    width: 1200px;
+    margin: 100px auto 0 auto;
+}
+
+.web .main .projectWrap .project {
+    width: 400px;
+    float: left;
+}
+
+.web .main .projectWrap .project ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.web .main .projectWrap .proTitle {
+    font-size: 36px;
+    text-align: left;
+    color: #34aaf8;
+    width: 80%;
+    margin: 60px auto 25px auto;
+}
+
+.web .main .projectWrap .action {
+    line-height: 1.8;
+    font-size: 18px;
+    color: #8b8b8b;
+    margin-bottom: 20px;
+}
+
+.web .main .projectWrap .illustrate {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #8b8b8b;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+    list-style-image: url("../../images/service/circle_blue.png");
+}
+

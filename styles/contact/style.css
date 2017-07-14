@@ -1,0 +1,340 @@
+body {
+
+}
+
+/*::-webkit-scrollbar {*/
+    /*width: 0;*/
+/*}*/
+
+/*页面共有样式*/
+.thisMarginBottom20 {
+    margin-bottom: 20%;
+}
+
+.thisW120H36 {
+    width: 120px;
+    height: 36px;
+}
+
+.thisW290 {
+    width: 290px;
+}
+
+.thisStandard {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.thisPadding33 {
+    padding: 0 33px;
+}
+
+.thisLineHeight2_2 {
+    line-height: 2.2;
+}
+
+.thisTop30 {
+    margin-top: 30px;
+}
+
+/* 页面私有样式*/
+.web {
+    position: relative;
+}
+
+.web .nav {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: #34aaf8;
+    z-index: 500;
+    display: block;
+}
+
+.web .nav .navWrap {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.web .nav .logo {
+    vertical-align: middle;
+    padding-left: 26px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.web .nav .navMenu {
+    float: right;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.web .nav .navMenu a {
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.web .nav .navMenu a:link {
+
+}
+
+.web .nav .navMenu a:visited {
+
+}
+
+.web .nav .navMenu a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.web .banner {
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 90px;
+    background-image: url(../../images/contact/Contact-us_banner_bg.png);
+}
+
+.web .banner .imgWrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.web .main {
+    width: 100%;
+    height: 3450px;
+    text-align: center;
+}
+
+.web .main .titleWrap {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.web .main .titleWrap .title {
+    margin-top: 82px;
+    margin-bottom: 33px;
+}
+
+.web .main .titleWrap .compass {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.web .main .mapWrap {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.web .main .mapWrap .map {
+    margin-top: 124px;
+}
+
+.web .main .mapWrap .map img {
+    width: 1073px;
+    /*height: 550px;*/
+}
+
+.web .main .mapWrap .mapIcon_01 {
+    position: absolute;
+    top: 100px;
+    left: 310px;
+}
+
+.web .main .mapWrap .mapIcon_02 {
+    position: absolute;
+    top: 120px;
+    left: 370px;
+    z-index: 100;
+}
+
+.web .main .mapWrap .mapIcon_03 {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+
+.web .main .mapWrap .map_address_content_01 {
+    left: 360px;
+    position: absolute;
+    top: -60px;
+    display: none;
+}
+
+.web .main .mapWrap .map_address_content_02 {
+    left: 420px;
+    position: absolute;
+    top: -100px;
+    display: none;
+}
+
+.web .main .mapWrap .map_address_content_03 {
+    left: 515px;
+    position: absolute;
+    top: -65px;
+    display: none;
+}
+
+.web .main .contactWayWrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.web .main .contactWay {
+    margin-top: 35px;
+    height: 105px;
+}
+
+.web .main .contactWay .phone {
+    height: 34px;
+    line-height: 34px;
+    width: 1050px;
+    color: #6c6c6c;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.web .main .contactWay .phone .phone_right {
+    font-size: 20px;
+}
+
+.web .main .contactWay .phone .phone_01 {
+    width: 350px;
+    float: left;
+}
+
+.web .main .contactWay .phone .phone_02 {
+    width: 350px;
+    float: left;
+
+}
+
+.web .main .contactWay .phone .phone_03 {
+    width: 350px;
+    float: left;
+
+}
+
+.web .main .contactWay .address {
+    height: 36px;
+    line-height: 36px;
+    width: 1140px;
+    margin: 0 auto 26px auto;
+    color: #6c6c6c;
+    font-size: 16px;
+
+}
+
+.web .main .contactWay .address .address_right {
+
+}
+
+.web .main .contactWay .address .address_01 {
+    float: left;
+    width: 380px;
+    cursor: pointer;
+}
+
+.web .main .contactWay .address .address_02 {
+    float: left;
+    width: 380px;
+    cursor: pointer;
+}
+
+.web .main .contactWay .address .address_03 {
+    float: left;
+    width: 380px;
+    cursor: pointer;
+}
+
+.web .main .titleSecond {
+    margin-top: 120px;
+}
+
+.web .main .recruitmentWrap {
+    width: 1200px;
+    margin: 145px auto 0 auto;
+    font-size: 17px;
+    color: #818181;
+}
+
+.web .main .recruitmentWrap .firstMainPoint {
+    margin-top: 63px;
+}
+
+.web .main .recruitmentWrap .leftWrap {
+    width: 50%;
+    float: left;
+}
+
+.web .main .recruitmentWrap .rightWrap {
+    width: 50%;
+    float: left;
+}
+
+.web .main .recruitmentWrap .front_end {
+    width: 565px;
+    height: 670px;
+    float: left;
+    text-align: left;
+    box-shadow: 5px 5px 3px #ececec;
+    border-radius: 5px;
+}
+
+.web .main .recruitmentWrap .front_end .mainPoint_green {
+    color: #a1cb5b;
+}
+
+.web .main .recruitmentWrap .back_end {
+    width: 565px;
+    height: 752px;
+    float: right;
+    text-align: left;
+    box-shadow: 5px 5px 3px #ececec;
+    border-radius: 5px;
+
+}
+
+.web .main .recruitmentWrap .back_end .mainPoint_blue {
+    color: #45b7f9;
+
+}
+
+.web .main .recruitmentWrap .ui {
+    width: 565px;
+    height: 853px;
+    float: left;
+    margin-top: 71px;
+    text-align: left;
+    box-shadow: 5px 5px 3px #ececec;
+    border-radius: 5px;
+
+}
+
+.web .main .recruitmentWrap .ui .mainPoint_red {
+    color: #f76f38;
+
+}
+
+.web .main .recruitmentWrap .business {
+    width: 565px;
+    height: 800px;
+    float: right;
+    margin-top: 71px;
+    text-align: left;
+    box-shadow: 5px 5px 3px #ececec;
+    border-radius: 5px;
+
+}
+
+.web .main .recruitmentWrap .business .mainPoint_orange {
+    color: #f9a600;
+
+}
+
+

@@ -1,0 +1,556 @@
+body {
+
+}
+
+/*页面共有样式*/
+.thisMarginBottom20 {
+    margin-bottom: 20%;
+}
+
+.thisW120H36 {
+    width: 120px;
+    height: 36px;
+}
+
+.thisW290 {
+    width: 290px;
+}
+
+/* 页面私有样式*/
+.mobile {
+    font-family: serif;
+}
+
+/*导航栏*/
+.mobile .nav {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 500;
+}
+
+.mobile .nav .logo {
+    vertical-align: middle;
+    height: 36px;
+    cursor: pointer;
+    float: left;
+    margin: 10px 0 0 10px;
+
+}
+
+.mobile .nav .menuIcon {
+    vertical-align: middle;
+    float: right;
+    cursor: pointer;
+    height: 24px;
+    margin: 16px 10px 0 0;
+}
+
+/*menu菜单栏*/
+.mobile .menu {
+    width: 45%;
+    height: 100%;
+    position: fixed;
+    top: 56px;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 500;
+    display: none;
+}
+
+.mobile .menu ul {
+    height: 100%;
+}
+
+.mobile .menu ul li {
+    height: 3em;
+    line-height: 3em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.mobile .menu ul li img {
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    vertical-align: middle;
+    display: block;
+}
+
+.mobile .menu ul li .menuText {
+    width: 50%;
+    height: 100%;
+    line-height: 3em;
+    position: absolute;
+    top: 0;
+    left: 39%;
+    text-align: left;
+}
+
+/*banner轮播*/
+.mobile .banner {
+    width: 100% !important;
+    position: relative;
+    margin-top: 56px;
+}
+
+.mobile .bannerTextWrap {
+    width: 100%;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.mobile .bannerTextWrap .bannerText {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    border-radius: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*浩明*/
+/*手机端*/
+.mobile .pageOne {
+    margin-top: 20px;
+}
+
+.mobile .pageOne .mobile_about_us {
+    width: 100%;
+}
+
+.mobile .pageOne .mobile_about_us .title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #6c6c6c;
+    width: 100%;
+}
+
+.mobile .pageOne .mobile_about_us .title2 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1em;
+    color: #6c6c6c;
+}
+
+.mobile .pageOne .mobile_about_us .info {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #6c6c6c;
+    line-height: 28px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.mobile .pageOne .mobile_about_us .mobile_logo {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.mobile .pageOne .mobile_about_us .mobile_logo img {
+    width: 100%;
+}
+
+.mobile .pageTwo {
+
+}
+
+.mobile .pageTwo .Mobile_Service_project_app {
+    width: 28%;
+    margin-left: 36%;
+    margin-top: 20px;
+}
+
+.mobile .pageTwo .Mobile_Service_project_app img {
+    width: 100%;
+}
+
+.mobile .pageTwo .mobile_we_service .title {
+    text-align: center;
+    margin-top: 1.2em;
+    font-size: 1.4em;
+    color: #616161
+}
+
+.mobile .pageTwo .mobile_we_service .title2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #5F5F5F;
+}
+
+.mobile .pageTwo .we_service .title {
+    color: #34AAF8;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.mobile .pageTwo .we_service_info {
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 24px;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    color: #777777;
+}
+
+.mobile .pageTwo .tips {
+    border-radius: 9px;
+    border: 1px solid #34AAF8;
+    padding: 15px 5%;
+    text-align: center;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 15px;
+    color: #5F5F5F;
+    line-height: 24px;
+    font-size: 0.9em;
+}
+
+.mobile .pageTwo .H5_development {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.mobile .pageTwo .H5_development img {
+    width: 100%;
+    display: block;
+}
+
+.mobile .pageTwo .H5_development_info {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.mobile .pageTwo .H5_development_info .title {
+    text-align: center;
+    color: #34AAF8;
+    font-size: 1.2em;
+}
+
+.mobile .pageTwo .H5_development_info .tipss {
+    text-align: center;
+    line-height: 24px;
+    font-size: 0.9em;
+    color: #7D7D7D;
+    margin-top: 10px;
+}
+
+.mobile .pageTwo .phone_img {
+    width: 28%;
+    margin-left: 36%;
+    margin-top: 30px;
+}
+
+.mobile .pageTwo .phone_img img {
+    width: 100%;
+}
+
+.mobile .pageTwo .mobile_pay {
+    border-radius: 9px;
+    border: 1px solid #34AAF8;
+    padding: 15px 10%;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 15px;
+    color: #5F5F5F;
+    line-height: 24px;
+    font-size: 0.9em;
+
+}
+
+.mobile .pageTwo .H5_development_form {
+    border-radius: 9px;
+    border: 1px solid #34AAF8;
+    padding: 15px 10%;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 15px;
+    color: #5F5F5F;
+    line-height: 24px;
+    font-size: 0.9em;
+
+}
+
+.mobile .pageTwo .mobile_pay_title .title {
+    text-align: center;
+    color: #34AAF8;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.mobile .pageTwo .mobile_pay_title .title2 {
+    text-align: center;
+    color: #5f5f5f;
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+.mobile .pageThree .title .title1 {
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 45px;
+    color: #5f5f5f;
+}
+
+.mobile .pageThree .title .title2 {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 15px;
+    color: #5f5f5f;
+}
+
+.mobile .pageThree .show_App {
+    margin-top: 20px;
+}
+
+.mobile .pageThree .show_App .show_App_tips {
+    margin-left: 5%;
+    color: #34AAF8;
+    font-size: 0.9em;
+}
+
+.mobile .pageThree .show_App1 {
+    margin-top: 20px;
+    position: relative;
+    width: 180px;
+    float: left;
+    margin-right: 8px;
+}
+
+.mobile .pageThree .show_App1 img {
+    width: 100%;
+}
+
+.mobile .pageThree .show_App1 .app_name1 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.48);
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.9em
+
+}
+
+.mobile .app {
+    width: 100%;
+    overflow-x: auto;
+    /*解决ios系统下scroll的卡顿问题*/
+    -webkit-overflow-scrolling: touch;
+}
+
+.mobile .app ul li {
+    float: left;
+    width: 1000px;
+}
+
+.mobile .pageFour {
+    margin-top: 20px;
+}
+
+.mobile .pageFour .Corporate_Culture {
+
+}
+
+.mobile .pageFour .Corporate_Culture .title {
+    color: #5f5f5f;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.mobile .pageFour .Corporate_Culture .title2 {
+    color: #5f5f5f;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mobile .pageFour .Corporate_Culture .info {
+    color: #5f5f5f;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 24px;
+}
+
+.mobile .pageFour .Corporate_imgWrap {
+   
+}
+
+.mobile .pageFour .Corporate_img {
+    margin-left: -350px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile .pageFour .Corporate_img img {
+    display: none;
+    width: 100%
+}
+
+.mobile .footer {
+    margin-top: 35px;
+    padding: 25px 0 0 25px;
+    color: #ffffff;
+    background: url("../../images/mobile/footer/Mobile_bg.png");
+}
+
+.mobile .footer .title {
+    font-size: 1.3em;
+}
+
+.mobile .footer .companyName {
+    padding-top: 10px;
+}
+
+.mobile .footer .tel {
+    padding-top: 20px;
+}
+
+.mobile .footer .email {
+    padding-top: 10px;
+}
+
+.mobile .footer .add1 {
+    padding-top: 10px;
+    line-height: 26px;
+}
+
+.mobile .footer .add1_left {
+    float: left;
+}
+
+.mobile .footer .add1_right {
+    float: left;
+    width: 70%;
+}
+
+.mobile .footer .add2 {
+    padding-top: 4px;
+    line-height: 26px;
+}
+
+.mobile .footer .add2_left {
+    float: left;
+}
+
+.mobile .footer .add2_right {
+    float: left;
+    width: 45%;
+}
+
+.mobile .footer .add3 {
+    padding-top: 4px;
+    line-height: 26px;
+}
+
+.mobile .footer .add3_left {
+    float: left;
+}
+
+.mobile .footer .add3_right {
+    float: left;
+    width: 70%;
+}
+
+.mobile .footer .imgWrap {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    padding-right: 25px;
+}
+
+.mobile .footer .imgWrap img {
+    vertical-align: middle;
+    width: 50px;
+}
+
+.mobile .footer .imgWrap .wechat {
+    margin-right: 25px;
+}
+
+.mobile .footer .imgWrap .recruitment {
+
+}
+
+.mobile .bottom {
+    margin-top: 20px;
+    color: #3b3c44;
+}
+
+.mobile .bottom .icp {
+    text-align: center;
+}
+
+.mobile .bottom .versionWrap {
+    margin: 20px 0 35px 0;
+    text-align: center;
+}
+
+.mobile .bottom .versionWrap .mobileVersion {
+    width: 66px;
+    line-height: 40px;
+    background: url("../../images/mobile/footer/switch_btn_button_highlight.png") no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.mobile .bottom .versionWrap .webVersion {
+    width: 66px;
+    line-height: 40px;
+    background: url("../../images/mobile/footer/switch_btn_button_normal.png") no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+
+@media screen and (min-width: 420px) {
+    .mobile .menu {
+        font-size: 1.5em;
+    }
+
+    .mobile .footer .add3_right {
+        width: 78%;
+    }
+}
+
+@media screen and (min-width: 330px) {
+    .mobile .footer .add2_right {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 370px) {
+    .mobile .footer .add2_right {
+        width: 55%;
+    }
+}
+
+/*swiper-slide插件*/
+.swiper-slide .inner {
+    padding: 35px 20px 0;
+}
+
+.pagination {
+    display: none;
+}

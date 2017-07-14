@@ -1,0 +1,534 @@
+body {
+
+}
+
+/*::-webkit-scrollbar {*/
+    /*width: 0;*/
+/*}*/
+
+/*页面共有样式*/
+.thisMarginBottom20 {
+    margin-bottom: 20%;
+}
+
+.thisW120H36 {
+    width: 120px;
+    height: 36px;
+}
+
+.thisW290 {
+    width: 290px;
+}
+
+/* 页面私有样式*/
+.web {
+    position: relative;
+}
+
+.web .nav {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: #34aaf8;
+    z-index: 500;
+    display: block;
+}
+
+.web .nav .navWrap {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.web .nav .logo {
+    vertical-align: middle;
+    padding-left: 26px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.web .nav .navMenu {
+    float: right;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.web .nav .navMenu a {
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.web .nav .navMenu a:link {
+
+}
+
+.web .nav .navMenu a:visited {
+
+}
+
+.web .nav .navMenu a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.web .banner {
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 90px;
+    background-image: url(../../images/case/case_banner_bg.png);
+}
+
+.web .main {
+    width: 100%;
+    height: 1450px;
+    text-align: center;
+}
+
+.web .main .title {
+    margin-top: 100px;
+    margin-bottom: 33px;
+}
+
+.web .main .titleText .submenu {
+    color: #6c6c6c;
+    font-size: 18px;
+    margin-top: 30px;
+    visibility: hidden;
+}
+
+.web .main .titleText .submenu span {
+    cursor: pointer;
+}
+
+.web .main .titleText .btnWrap {
+    width: 400px;
+    height: 36px;
+    margin: 0 auto;
+    color: #818181;
+    font-size: 20px;
+}
+
+.web .main .titleText .btn_01 {
+    text-align: center;
+    float: left;
+    line-height: 36px;
+    background-image: url(../../images/index/pageTwo/case_rb_button_highlight.png);
+    background-size: 100% 100%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.web .main .titleText .centerWrap {
+    width: 210px;
+    height: 36px;
+    float: left;
+}
+
+.web .main .titleText .btn_02 {
+    /*margin: 0 auto;*/
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    /*width: 130px;*/
+    height: 36px;
+    line-height: 36px;
+    background-image: url(../../images/index/pageTwo/case_rb_button_normal0_white.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.web .main .titleText .btn_03 {
+    text-align: center;
+    float: right;
+    line-height: 36px;
+    background-image: url(../../images/index/pageTwo/case_rb_button_normal0_white.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.web .main .content {
+    /*height: 360px;*/
+    margin-top: 50px;
+    width: 100%;
+}
+
+.web .main .content .exampleWrap {
+    width: 1200px;
+    margin: 0 auto 40px auto;
+    color: #6c6c6c;
+}
+
+.web .main .content .exampleWrap .example {
+    width: 382px;
+    height: 225px;
+    cursor: pointer;
+}
+
+.web .main .content .exampleWrap .example img {
+    width: 100%;
+    /*height: 100%;*/
+    cursor: pointer;
+}
+
+.web .main .content .exampleWrap .eg_01 {
+    float: left;
+}
+
+.web .main .content .exampleWrap .eg_02 {
+    margin-left: 27px;
+    float: left;
+}
+
+.web .main .content .exampleWrap .eg_03 {
+    margin-left: 27px;
+    float: left;
+}
+
+.web .main .content .exampleWrap .egText_01 {
+    width: 382px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content .exampleWrap .egText_02 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content .exampleWrap .egText_03 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content .exampleWrap .egType_01 {
+    width: 382px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+.web .main .content .exampleWrap .egType_02 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+.web .main .content .exampleWrap .egType_03 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+/*webPage*/
+
+.web .main .content_webPage {
+    /*height: 360px;*/
+    margin-top: 50px;
+    width: 100%;
+    display: none;
+}
+
+.web .main .content_webPage .exampleWrap {
+    width: 1200px;
+    margin: 0 auto 40px auto;
+    color: #6c6c6c;
+}
+
+.web .main .content_webPage .exampleWrap .example {
+    width: 382px;
+    height: 225px;
+    cursor: pointer;
+}
+
+.web .main .content_webPage .exampleWrap .example img {
+    width: 100%;
+    /*height: 100%;*/
+    cursor: pointer;
+}
+
+.web .main .content_webPage .exampleWrap .eg_01 {
+    float: left;
+}
+
+.web .main .content_webPage .exampleWrap .eg_02 {
+    margin-left: 27px;
+    float: left;
+}
+
+.web .main .content_webPage .exampleWrap .eg_03 {
+    margin-left: 27px;
+    float: left;
+}
+
+.web .main .content_webPage .exampleWrap .egText_01 {
+    width: 382px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content_webPage .exampleWrap .egText_02 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content_webPage .exampleWrap .egText_03 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content_webPage .exampleWrap .egType_01 {
+    width: 382px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+.web .main .content_webPage .exampleWrap .egType_02 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+.web .main .content_webPage .exampleWrap .egType_03 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+/*wechat*/
+
+.web .main .content_mobilePay {
+    /*height: 360px;*/
+    margin-top: 50px;
+    width: 100%;
+    display: none;
+}
+
+.web .main .content_mobilePay .exampleWrap {
+    width: 1200px;
+    margin: 0 auto 40px auto;
+    color: #6c6c6c;
+}
+
+.web .main .content_mobilePay .exampleWrap .example {
+    width: 382px;
+    height: 225px;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.web .main .content_mobilePay .exampleWrap .example img {
+    width: 100%;
+    /*height: 100%;*/
+    cursor: pointer;
+}
+
+.web .main .content_mobilePay .exampleWrap .eg_01 {
+    float: left;
+}
+
+.web .main .content_mobilePay .exampleWrap .eg_02 {
+    margin-left: 27px;
+    float: left;
+}
+
+.web .main .content_mobilePay .exampleWrap .eg_03 {
+    margin-left: 27px;
+    float: left;
+}
+
+.web .main .content_mobilePay .exampleWrap .egText_01 {
+    width: 382px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content_mobilePay .exampleWrap .egText_02 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content_mobilePay .exampleWrap .egText_03 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 24px;
+    margin-top: 25px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.web .main .content_mobilePay .exampleWrap .egType_01 {
+    width: 382px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+.web .main .content_mobilePay .exampleWrap .egType_02 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+.web .main .content_mobilePay .exampleWrap .egType_03 {
+    width: 382px;
+    margin-left: 27px;
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    height: 18px;
+    line-height: 18px;
+    filter: alpha(opacity=80); /*IE滤镜*/
+    -moz-opacity: 0.8; /*Firefox私有*/
+    opacity: 0.8; /*其他*/
+}
+
+.web .main .turnPage {
+    width: 170px;
+    height: 38px;
+    line-height: 38px;
+    margin: 30px auto 0 auto;
+    color: #41424a;
+    filter: alpha(opacity=90); /*IE滤镜*/
+    -moz-opacity: 0.9; /*Firefox私有*/
+    opacity: 0.9; /*其他*/
+    font-size: 20px;
+    display: none;
+}
+
+.web .main .turnPage .number_01 {
+    float: left;
+    width: 50px;
+    height: 38px;
+    background-image: url(../../images/case/btn_button_highlight.png);
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.web .main .turnPage .number_02 {
+    float: left;
+    width: 50px;
+    height: 38px;
+    margin-left: 10px;
+    background-image: url(../../images/case/btn_button_normal.png);
+    cursor: pointer;
+}
+
+.web .main .turnPage .number_03 {
+    float: left;
+    width: 50px;
+    height: 38px;
+    margin-left: 10px;
+    background-image: url(../../images/case/btn_button_normal.png);
+    cursor: pointer;
+}
+
+.web .main .turnPage .nextPage {
+    float: left;
+    width: 82px;
+    height: 38px;
+    margin-left: 10px;
+    background-image: url(../../images/case/btn_bg.png);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+

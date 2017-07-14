@@ -1,0 +1,192 @@
+body {
+    overflow-x: auto;
+    letter-spacing: 1px;
+}
+
+.golbalBlock {
+    display: block;
+}
+
+.golbalFloatRight {
+    float: right;
+}
+
+.golbalFloatLeft {
+    float: left;
+}
+
+.globalTextCenter {
+    text-align: center;
+}
+
+.globalTextLeft {
+    text-align: left;
+}
+
+.globalClear {
+    clear: both;
+}
+
+.globalStandard {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.globalWechat {
+    position: absolute;
+    top: -125px;
+    right: 169px;
+    display: none;
+    z-index: 500;
+
+}
+
+.globalRelative {
+    position: relative;
+}
+
+.globalOpacity {
+    filter: alpha(opacity=60); /*IE滤镜*/
+    -moz-opacity: 0.6; /*Firefox私有*/
+    opacity: 0.6; /*其他*/
+}
+
+.globalFontBold {
+    font-weight: bold;
+}
+
+/*网页版公共样式*/
+
+.web {
+    min-width: 1200px;
+}
+
+.wechatLogo {
+    cursor: pointer;
+}
+
+.underside {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: none;
+    filter: alpha(opacity=40); /*IE滤镜*/
+    -moz-opacity: 0.4; /*Firefox私有*/
+    opacity: 0.4; /*其他*/
+}
+
+.web .bottom {
+    position: absolute;
+    background: url(../../images/common/bottom/the-bottom_bg.png) 50% 50% no-repeat;
+    height: 330px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.web .bottom .topImg {
+    margin-top: -22px;
+
+}
+
+.web .bottom .navWrap {
+    width: 1160px;
+    height: 50px;
+    margin: 50px auto 0 auto;
+    position: relative;
+}
+
+.web .bottom .navWrap .bottom_nav {
+    float: left;
+    font-size: 17px;
+    color: #ffffff;
+    filter: alpha(opacity=75); /*IE滤镜*/
+    -moz-opacity: 0.75; /*Firefox私有*/
+    opacity: 0.75; /*其他*/
+    height: 27px;
+    line-height: 27px;
+}
+
+.web .bottom .navWrap .bottom_nav img {
+    filter: alpha(opacity=100); /*IE滤镜*/
+    -moz-opacity: 1; /*Firefox私有*/
+    opacity: 1; /*其他*/
+}
+
+.web .bottom .navWrap .bottom_nav .verticalLine {
+    width: 1px;
+    height: 14px;
+    line-height: 14px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 14px;
+    margin-top: 6px;
+    filter: alpha(opacity=50); /*IE滤镜*/
+    -moz-opacity: 0.5; /*Firefox私有*/
+    opacity: 0.5; /*其他*/
+}
+
+.web .bottom .navWrap .bottom_nav span {
+    font-size: 14px;
+    filter: alpha(opacity=50); /*IE滤镜*/
+    -moz-opacity: 0.5; /*Firefox私有*/
+    opacity: 0.5; /*其他*/
+}
+
+.web .bottom .contentWrap {
+    width: 1200px;
+    margin: 40px auto 0 auto;
+    font-size: 17px;
+    color: #ffffff;
+    filter: alpha(opacity=75); /*IE滤镜*/
+    -moz-opacity: 0.75; /*Firefox私有*/
+    opacity: 0.75; /*其他*/
+}
+
+.web .bottom .contentWrap span {
+    font-size: 14px;
+}
+
+.web .bottom .contentWrap .content_01 {
+    height: 17px;
+    line-height: 17px;
+}
+
+.web .bottom .contentWrap .content_02 {
+    height: 17px;
+    line-height: 17px;
+    margin-top: 25px;
+}
+
+.web .bottom .contentWrap .content_03 {
+    height: 17px;
+    line-height: 17px;
+    margin-top: 25px;
+}
+
+.web .bottom .contentWrap .content_04 {
+    height: 17px;
+    line-height: 17px;
+    margin-top: 25px;
+    font-size: 10px;
+    filter: alpha(opacity=40); /*IE滤镜*/
+    -moz-opacity: 0.4; /*Firefox私有*/
+    opacity: 0.4; /*其他*/
+    float: right;
+}
+
+@media screen and (max-width: 1200px) {
+    .web .nav .navWrap {
+        width: 1024px !important;
+    }
+
+    .web .nav .logo {
+        padding-left: 26px !important;
+    }
+
+    .web .nav .navMenu {
+        margin-right: 0 !important;
+    }
+}
